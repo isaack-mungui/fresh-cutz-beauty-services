@@ -1,14 +1,16 @@
 .main{
-    width: 90%;
-    padding-left:100px;
-    padding-right: 100px;
+    background-color: #dbe7ed;
+    border: 2px solid #dbe7ed;
+    /* width: 90%; */
+    /* padding-left:100px;
+    padding-right: 100px; */
     padding-top: 0%;
 }
 .navigation{
-    width: 100%;
+    width: 98%;
     padding-top: 20px;
     padding-bottom: 40px;
-    border: 2px solid #dbe7ed;
+    border: 2px solid black;
     padding-right: 20px;
 }
 .navigation .nav_links {
@@ -28,7 +30,7 @@ a{
 }
 #button_book{
     padding: 10px 20px;
-    background-color: #dbe7ed;
+    background-color: blue;
     border: 2px solid #dbe7ed;
     
 }
@@ -82,7 +84,7 @@ a{
 }
 #visit{
     padding: 10px 20px;
-    background-color: #dbe7ed;
+    background-color: blue;
     border: 2px solid #dbe7ed;
 }
 .socials{
