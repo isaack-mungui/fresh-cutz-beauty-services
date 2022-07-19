@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: solid red;
+    /* height: 100vh; */
+}
+
+.image-top{
+    width: 100%;
+    background-image: url("../images/woman-model-makeup-brunette.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid blue;
+    /* box-sizing: border-box; */
+    /* padding: 10px; */
+    height: 300px;
+    /* display: flex; */
+    /* position: fixed; */
+    /* padding: 100px; */
+}
+
+.image-top > img{
+    /* padding: 100px; */
+}
+
+.service{
+    margin-top: 5%;
+   text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    /* color: #000000; */
+}
+
+.images-divs{
+    padding: 10px;
+    margin-top: 5%;
+    display: flex;
+    border: solid green;
+    width: 98%;
+    /* margin-left: 1%; */
+    /* align-items: center; */
+}
+
+.cards-images{
+    width: 25%;
+    border: solid black;
+    height: 400px;
+}
+
+.cards-images img{
+    /* padding: 5% 5%; */
+    width: 95%;
+    height: 90%;
+}
+
+.foot{
+    border: solid blue;
+    height: 30vh;
+}
+
