@@ -47,18 +47,120 @@ section {
 #sect1_div1 {
     width: 50%;
     height: 100%;
-    border: thin solid black;
+    background-image: url(/barber/barber_assets/barber_images/women/Untitled.jpeg);
+    background-position: center;
+    background-size: 100% 110%;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 #sect1_div2 {
     width: 50%;
     height: 100%;
-    border: thin solid black;
+    background-image: url(/barber/barber_assets/barber_images/men/medium_length_curls_lowFade_beard.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 #over {
-    background-color: black;
-    height: 110px;
-    width: 10%;
+    background-color: transparent;
+    border: thin solid black;
+    height: 10vw;
+    width: 20%;
     position: absolute;
+    top: 16vw;
+    left: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#over p {
+    text-align: center;
+    font-size: 2.0vw;
+    line-height: 150%;
+    font-weight: 800;
+    z-index: 1;
+}
+
+#over2 {
+    width: 100%;
+    height: 40vw;
+    background-color: #dbe7ed;
+    opacity: 0.4;
+    position: absolute;
+    top: 6vw;
+    z-index: 0;
+}
+
+.sect1_buttons {
+    width: 50%;
+    height: 15%;
+    border-radius: 2vw;
+    background-color: #dbe7ed;
+    font-size: 1.8vw;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect1_buttons:hover {
+    width: 48%;
+    height: 13%;
+
+}
+
+.but1_spans {
+    width: 50%;
+    height: 100%;
+    border: thin solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+}
+
+#but1_span1 {
+    border-bottom-left-radius: 2vw;
+    border-top-left-radius: 2vw;
+    color: black;
+    background-color: #dbe7ed;
+    border: none;
+}
+
+#but1_span2 {
+    border-bottom-right-radius: 2vw;
+    border-top-right-radius: 2vw;
+    color: #dbe7ed;
+    background-color: black;
+    border: none;
+}
+
+#but0_span1 {
+    border-bottom-left-radius: 2vw;
+    border-top-left-radius: 2vw;
+    color: black;
+    background-color: #dbe7ed;
+    border: none;
+}
+
+#but0_span2 {
+    border-bottom-right-radius: 2vw;
+    border-top-right-radius: 2vw;
+    color: #dbe7ed;
+    background-color: black;
+    border: none;
 }
