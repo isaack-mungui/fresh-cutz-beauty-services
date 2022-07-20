@@ -6,28 +6,19 @@
 body{
     font-family: 'Edu NSW ACT Foundation';
 }
+
 .container{
     border: solid red;
-    /* height: 100vh; */
 }
 
 .image-top{
-    margin-top: 10%;
+    margin-top: 8%;
     width: 100%;
     background-image: url("../images/woman-model-makeup-brunette.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border: solid blue;
-    /* box-sizing: border-box; */
-    /* padding: 10px; */
     height: 300px;
-    /* display: flex; */
-    /* position: fixed; */
-    /* padding: 100px; */
-}
-
-.image-top > img{
-    /* padding: 100px; */
 }
 
 .service{
@@ -37,7 +28,6 @@ body{
     font-size: 15px;
     font-weight: 700;
     border-radius: 30px;
-    /* color: #000000; */
 }
 
 .images-divs{
@@ -47,8 +37,6 @@ body{
     border: solid green;
     width: 98%;
     text-align: center;
-    /* margin-left: 1%; */
-    /* align-items: center; */
 }
 
 .cards-images{
@@ -58,13 +46,12 @@ body{
 }
 
 .cards-images img{
-    /* padding: 5% 5%; */
     width: 95%;
     height: 80%;
     margin-bottom: 9%;
 }
 
-label{
+.image-divs label{
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
@@ -77,24 +64,6 @@ label{
     padding: 40px ;
     display: flex;
     justify-content: space-between;
-}
-
-.back-to-landing{
-    /* border: solid red; */
-}
-
-
-.see-more-btn{
-    /* margin: 5%; */
-    /* float: right; */
-    /* padding: 10px; */
-    /* background: rgb(96, 96, 118); */
-    /* border: solid blue; */
-    /* cursor: pointer; */
-    /* font-size: 5px; */
-    /* font-weight: 700; */
-    /* border-radius: 30px; */
-    /* color: #fafafa; */
 }
 
 .back-to-landing button{
@@ -110,7 +79,7 @@ label{
 
 .back-to-landing button:before{
     content: '⬅';
-    /* color: #000000 !important; */
+    color: #000000 !important;
     border-right: 2px solid #000000;
     padding-right: 30px;
     margin: 0px 20px 0px 0px;
@@ -143,3 +112,53 @@ label{
     background-color: #dbe7ed;
 }
 
+/* ------------- second page ------------- */
+
+.top-nav-main{
+    border: solid red;
+    padding: 50px 0px;
+}
+
+/* .nav-bar-vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    /* height: 100vh; 
+    background-color: #dddddd;
+    border: solid blue;
+}
+
+.nav-bar-vertical li a {
+     display: block; 
+     margin-bottom: 50%; 
+    padding: 10px;
+}
+
+.nav-bar-vertical li a img{
+    border: solid red;
+}
+
+.nav-bar-vertical li label{
+padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #fafafa;
+    box-shadow: 2px 1px 2px 1px;
+} */
+
+.main-content{
+    display:flex;
+    width: 100%;
+    border: solid blue;
+}
+
+.image-cards{
+    width: 100%;
+    border: solid ;
+}
+
+.image-cards img{
+    width: 90%;
+    border: solid green;
+}
