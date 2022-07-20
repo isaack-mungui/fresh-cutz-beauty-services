@@ -274,3 +274,7 @@
 .card_order img {
     height: 90%;
 }
+
+#masculine {
+    display: none;
+}
