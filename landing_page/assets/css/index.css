@@ -2,10 +2,15 @@
     box-sizing: border-box;
 }
 
+.nav-container .dropdown {
+    overflow: visible;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    overflow: visible;
 }
 
 #logo {
@@ -37,12 +42,42 @@
     padding-right: 50px;
 }
 
-#services {
+.services {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
     color: #000;
     text-decoration: none;
     padding-right: 50px;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .services {
+    border: none;
+    outline: none;
+    margin: 0;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 #cart {
