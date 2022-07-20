@@ -11,6 +11,7 @@ body {
 form {
     margin-top: 1%;
     border: thin solid black;
+
     height: 41.7vw;
     background-color: #dbe7ed;
     font-size: 1.7vw;
@@ -29,7 +30,7 @@ form {
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    border: thin solid black;
+
     margin-bottom: 4%;
     margin-top: 0.5%;
     font-size: 1.7vw;
@@ -52,8 +53,10 @@ form {
     font-size: 2.0vw;
     border-radius: 2vw;
     border: thin solid black;
+
     margin-top: -6%;
     margin-left: 2%;
+    box-shadow: 0.3vw 0.3vw 0.9vw;
 
 }
 
@@ -64,7 +67,7 @@ form {
     align-items: center;
     height: 80%;
     width: 100%;
-    border: thin solid black;
+
     font-size: 1.7vw;
 
 }
@@ -141,15 +144,19 @@ form {
     font-weight: 600;
     margin-left: 75%;
     border: thin solid black;
+    box-shadow: 0.3vw 0.3vw 0.9vw;
+
 }
 
 #reset {
     width: 25%;
-    height: 13%;
+    height: 15%;
     border-radius: 1vw;
     margin-top: 2%;
     font-size: 1.5vw;
     font-weight: 600;
     margin-left: 75%;
     border: thin solid black;
+    box-shadow: 0.3vw 0.3vw 0.9vw;
+
 }
