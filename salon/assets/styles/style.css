@@ -3,12 +3,16 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Edu NSW ACT Foundation';
+}
 .container{
     border: solid red;
     /* height: 100vh; */
 }
 
 .image-top{
+    margin-top: 10%;
     width: 100%;
     background-image: url("../images/woman-model-makeup-brunette.jpg");
     background-size: cover;
@@ -42,6 +46,7 @@
     display: flex;
     border: solid green;
     width: 98%;
+    text-align: center;
     /* margin-left: 1%; */
     /* align-items: center; */
 }
@@ -55,11 +60,86 @@
 .cards-images img{
     /* padding: 5% 5%; */
     width: 95%;
-    height: 90%;
+    height: 80%;
+    margin-bottom: 9%;
+}
+
+label{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #fafafa;
+    box-shadow: 2px 1px 2px 1px;
+}
+
+.nav-btns{
+    border: solid green;
+    padding: 40px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-to-landing{
+    /* border: solid red; */
+}
+
+
+.see-more-btn{
+    /* margin: 5%; */
+    /* float: right; */
+    /* padding: 10px; */
+    /* background: rgb(96, 96, 118); */
+    /* border: solid blue; */
+    /* cursor: pointer; */
+    /* font-size: 5px; */
+    /* font-weight: 700; */
+    /* border-radius: 30px; */
+    /* color: #fafafa; */
+}
+
+.back-to-landing button{
+    background-color: #dbe7ed;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #010000; 
+    padding: 20px 30px !important;
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+.back-to-landing button:before{
+    content: '⬅';
+    /* color: #000000 !important; */
+    border-right: 2px solid #000000;
+    padding-right: 30px;
+    margin: 0px 20px 0px 0px;
+}
+
+.see-more-btn button{
+    /* margin-left: 70%; */
+    background-color: #dbe7ed;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #010000; 
+    padding: 20px 30px !important;
+    font-family: 'Edu NSW ACT Foundation';
+    /* border: 2px solid #000000 !important; */
+}
+
+.see-more-btn button:after{
+    content: '➔';
+    /* color: #000000 !important; */
+    border-left: 2px solid #000000;
+    padding-left: 30px;
+    margin: 0px 0px 0px 20px;
 }
 
 .foot{
     border: solid blue;
     height: 30vh;
+    background-color: #dbe7ed;
 }
 
