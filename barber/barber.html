@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./barber_assets/barber_styles/styles.css" />
     <title>Barber</title>
   </head>
+
   <body>
     <header id="header">
       <p>
@@ -14,12 +15,796 @@
         <strong>BALD</strong> and The <strong>HUNGRY</strong>
       </p>
     </header>
-    <main>
-      <section id="sect1">
-        <div id="sect1_div1"></div>
-        <div id="sect1_div2"></div>
+
+    <section id="sect1">
+      <div id="sect1_div1">
+        <button id="sect1_button1" class="sect1_buttons">
+          <div id="but0_span1" class="but1_spans">Something</div>
+          <div id="but0_span2" class="but1_spans">Sassy</div>
+        </button>
+      </div>
+      <div id="sect1_div2">
+        <button id="sect1_button2" class="sect1_buttons" onclick="getElement()">
+          <div id="but1_span1" class="but1_spans">Something</div>
+          <div id="but1_span2" class="but1_spans">Masculine</div>
+        </button>
+      </div>
+    </section>
+    <div id="over">
+      <p>Hello, I am <br />Barber Black Sheep <br />from CutZ.</p>
+    </div>
+    <div id="over2"></div>
+
+    <main id="masculine">
+      <!-- ======================section 2========================== -->
+      <!-- header -->
+      <div class="sect_head">
+        <div><h2>Featured</h2></div>
+      </div>
+      <!-- section -->
+      <section id="section2" class="section">
+        <div class="cards">
+          <div class="card_name">
+            <h3>Stepped Top Fade</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/stepped_topFade_color.jpg"
+              alt="stepped top fade"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1200</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Curly Mohawk</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/curly_mohawk.jpg"
+              alt="curly mohawk"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1000</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Hair Beard Design</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/hair_beard_design.jpg"
+              alt="Hair Beard design"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1300</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
       </section>
-      <div id="over"></div>
+
+      <!-- ======================section 3========================== -->
+      <!-- header -->
+      <div class="sect_head">
+        <div><h2>Short Hair</h2></div>
+      </div>
+      <!-- section -->
+      <section id="section3" class="section">
+        <div class="cards">
+          <div class="card_name">
+            <h3>Jordan Long Beard</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/jordan_longBeard.jpg"
+              alt="jordan long beard"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1000</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Low Fade</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/short_hair_low_fade.jpg"
+              alt="low fade short hair"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.800</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Ronaldo R9</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/southside_fade_haircut.jpg"
+              alt="southside fade"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.800</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Fade Top Waves</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/waves_haircut_with.jpg"
+              alt="waves haircut"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1000</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================section 4========================== -->
+      <!-- header -->
+      <div class="sect_head">
+        <div><h2>Medium Hair</h2></div>
+      </div>
+
+      <!-- scetion 4 -->
+      <section id="section4" class="section">
+        <div class="cards">
+          <div class="card_name">
+            <h3>Flat Top Hair Step</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/flat_top_hair_step.jpg"
+              alt="flat top hair step"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1100</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Fade <em>with</em> Surgical Line</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/fade_surgical_line.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1100</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Modern Afro</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/modern_afro_ct.jpg"
+              alt="modern afro"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1000</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Mohawk Drop Fade</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/mohawk_dropFade.jpg"
+              alt="mohawk dropFade"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.600</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================section 5========================== -->
+      <!-- header -->
+      <div class="sect_head">
+        <div><h2>Long Hair</h2></div>
+      </div>
+      <!-- section -->
+      <section id="section5" class="section">
+        <div class="cards">
+          <div class="card_name">
+            <h3>Dreadlocks Temple Fade</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/short_dreadlocks_temple_fade.jpg"
+              alt="short dreadlocks temple fade"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1400</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Medium Locks Fade</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/medium_locs_fade.jpg"
+              alt="medium locs fade"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1500</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>LongLocs shaved Nape</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/longLocs_shvedNape.jpg"
+              alt="longlocs shaved nape"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1600</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Curls Lowfade</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/men/medium_length_curls_lowFade_beard.jpg"
+              alt="curls and low fade"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.600</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <main id="sassy">
+      <!-- ======================section 6========================== -->
+      <!-- header -->
+      <div class="sect_head">
+        <div><h2>Featured Styles</h2></div>
+      </div>
+      <!-- section -->
+      <section id="section6" class="section">
+        <div class="cards">
+          <div class="card_name">
+            <h3>Two Stone Natural Design</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/twoStone_NaturalDesign.jpg"
+              alt="two stone natural design"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2000</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Tapered Buzzed</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/tapered_buzzed_curls.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1900</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Natural Undercut</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/natural_undercut_shavedLines.jpg"
+              alt="Natural undercut"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2000</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================section 7========================== -->
+      <!-- header -->
+      <div class="sect_head">
+        <div><h2>Short Hair</h2></div>
+      </div>
+      <!-- section -->
+      <section id="section7" class="section">
+        <div class="cards">
+          <div class="card_name">
+            <h3>Glowing Waves</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/glowing_waves.jpg"
+              alt="glowing waves"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1500</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Fade Natural Coiled</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/fade_naturalCoiled.jpg"
+              alt="fade natural coiled"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.1700</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Hard Part</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/shortHair_hardPart.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2100</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Twa Cut</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/Stunning_twaCut.jpg"
+              alt="twa Cut"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2000</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================section 8========================== -->
+      <!-- header -->
+      <div class="sect_head">
+        <div><h2>Medium Hair</h2></div>
+      </div>
+
+      <!-- scetion 8 -->
+      <section id="section8" class="section">
+        <div class="cards">
+          <div class="card_name">
+            <h3>Mohawk Sideline Curls</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/mohawk_sideline_curls.jpg"
+              alt="mohawk sideline"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2200</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>MOhawk <em>with </em>Parterns</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/Mohawk_trendyParterns.jpg"
+              alt="mohawk trendy lines"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2400</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>Gradient Buzz</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/gradient_buzz.jpg"
+              alt="gradient buzz"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2100</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card_name">
+            <h3>White Gold Waves</h3>
+          </div>
+          <div class="card_img">
+            <img
+              src="./barber_assets/barber_images/women/white_gold_waves.jpg"
+              alt="white gold waves"
+            />
+          </div>
+          <div class="card_info">
+            <button class="card_price">
+              <img
+                src="./barber_assets/barber_images/logos/price.png"
+                alt="price"
+              />
+              <p>Ksh.2400</p>
+            </button>
+            <button class="card_order">
+              <img
+                src="./barber_assets/barber_images/logos/appointment.png"
+                alt="appointment"
+              />
+              <p>Book</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./barber_assets/barber_script/script.js"></script>
   </body>
 </html>
