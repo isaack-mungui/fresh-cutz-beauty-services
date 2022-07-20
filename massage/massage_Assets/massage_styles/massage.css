@@ -10,7 +10,7 @@
     width: 98%;
     padding-top: 20px;
     padding-bottom: 40px;
-    border: 2px solid black;
+    
     padding-right: 20px;
 }
 .navigation .nav_links {
@@ -38,6 +38,7 @@ a{
     padding: 10px 20px;
     background-color: blue;
     border: 2px solid #dbe7ed;
+    border-radius: 2vh;
     
 }
 /* heading 1'''''''''''''''''''''''''''''''''''''' */
@@ -99,6 +100,7 @@ a{
     padding: 10px 20px;
     background-color: blue;
     border: 2px solid #dbe7ed;
+    border-radius: 2vh;
 }
 .socials{
     padding-left: 40%;
@@ -117,6 +119,7 @@ a{
     padding: 10px 20px;
     background-color: blue;
     border: 2px solid #dbe7ed;
+    border-radius: 2vh;
 }
 
 .header369{
@@ -157,4 +160,22 @@ a{
 }
 .header369 .link1{
     padding-right: 2%;
+}
+#toppie{
+    padding-left: 40%;
+}
+#back{
+    padding-left: 30px;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #dbe7ed;
+    border-radius: 2vh;
+}
+#back:link,#back:visited{
+    color: white;
+    background-color: red;
+}
+#back:hover,#back:active{
+    background-color: black;
+    color: white;
 }
