@@ -1,0 +1,39 @@
+.main{
+    background-color: #dbe7ed;
+    padding-bottom: 50%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+form{
+    padding-left: 40%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#username,#username,#email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    border-radius: 1vh;
+
+}
+#booking{
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #dbe7ed;
+    border-radius: 2vh;
+}
+#booking:link,#booking:visited{
+    background-color: black;
+    color: white;
+}
+#booking:hover,#booking:active{
+    background-color: black;
+    color: white;
+}
+#date{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 97px;
+    border-radius: 1vh;
+}

@@ -59,7 +59,7 @@ a{
     padding-right: 20px;
     align-items: center;
     padding-top: 0%;
-    padding-left: 15%;
+    padding-left: 0%;
 }
 /* .image1{
     padding-top: 0%;
@@ -178,4 +178,17 @@ a{
 #back:hover,#back:active{
     background-color: black;
     color: white;
+}
+#relaxing{
+    padding-top: 10%;
+    padding-left: 2%;
+}
+@media only screen and (max-width:600px) {
+    .main{
+        background-color:#dbe7ed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
