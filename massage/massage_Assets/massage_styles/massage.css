@@ -14,21 +14,27 @@
     padding-right: 20px;
 }
 .navigation .nav_links {
-    float: right;
+    /* float: right; */
     text-align: center;
     
 }
 #link1{
     padding-right: 10px;
 }
+#link1_active:link,#link1_active:visited{
+    background-color: #dbe7ed;
+    color: black;
+
+}
 a{
     text-decoration: none;
     color: black;
 }
 #link1_massage{
-    padding-right: 100px;
+    padding-right: 500px;
 }
 #button_book{
+    padding-left: 30px;
     padding: 10px 20px;
     background-color: blue;
     border: 2px solid #dbe7ed;
@@ -36,17 +42,23 @@ a{
 }
 /* heading 1'''''''''''''''''''''''''''''''''''''' */
 .heading1{
-    width: 50%;
+    background-image: url("/massage/massage_Assets/massage_images/pexels-karolina-grabowska-4041392.jpg");
+    background-size: 100% 100%;
     padding-top: 30px;
     padding-left: 20%;
-    width: 100%;
+    padding-bottom: 30%;
+    /* width: 100%; */
     display: flex;
     align-items: center;
-    /* flex-direction: row; */
+    flex-direction: row;
+    /* height: 100%; */
 }
 .h1_content{
     margin-right: 20px;
     padding-right: 20px;
+    align-items: center;
+    padding-top: 0%;
+    padding-left: 15%;
 }
 /* .image1{
     padding-top: 0%;
@@ -81,6 +93,7 @@ a{
 }
 .location1{
     padding-left: 15%;
+    
 }
 #visit{
     padding: 10px 20px;
@@ -99,4 +112,49 @@ a{
 }
 .well_info{
     padding-left:  20px;
+}
+#session1{
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #dbe7ed;
+}
+
+.header369{
+    background-image: url("/massage/massage_Assets/massage_images/pexels-karolina-grabowska-4041392.jpg");
+    background-size: 100% 100%;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-bottom: 40%;
+    
+}
+#button_book:link,#button_book:visited{
+    color: white;
+    background-color: red;
+}
+#button_book:hover,#button_book:active{
+    background-color: black;
+    color: white;
+}
+#session1:link,#session1:visited{
+    color: white;
+    background-color: red;
+}
+#session1:hover,#session:active{
+    background-color: black;
+    color: white;
+}
+#visit:link,#visit:visited{
+    color: white;
+    background-color: red;
+}
+#visit:hover,#visit:active{
+    background-color: black;
+    color: white;
+}
+.bbg{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.header369 .link1{
+    padding-right: 2%;
 }
