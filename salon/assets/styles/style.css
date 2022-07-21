@@ -142,6 +142,10 @@ body {
     border: solid blue;
 }
 
+#main-content1{
+    margin-bottom: 8%;
+}
+
 .main-content2 {
     display: flex;
     width: 100%;
@@ -151,14 +155,16 @@ body {
 }
 
 .main-content3 {
-    display: none;
+    display: flex;
     width: 100%;
     border: solid blue;
     /* visibility: hidden; */
 }
 
+
+
 .main-content4 {
-    display: none;
+    display: flex;
     width: 100%;
     border: solid blue;
     /* visibility: hidden; */
@@ -172,18 +178,26 @@ body {
 
 .image-cards img {
     width: 90%;
-    border: solid green;
+    box-shadow: 2px 5px 10px #dbe7ed;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.image-cards img:hover {
+    opacity: 0.8;
+    transition: ease-in-out 1s;
+    cursor: pointer;
 }
 
 .nav-bar-select-service {
     /* background-color: #dbe7ed; */
-    border: solid green;
+    /* border: solid green; */
 }
 
 .button-tabs {
     /* height: 50px; */
     display: flex;
-    padding: 0px;
+    /* padding: 0px; */
     background: #fff;
     font-size: 20px;
     /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); */
