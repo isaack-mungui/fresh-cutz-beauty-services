@@ -14,12 +14,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     overflow: visible;
-    border: solid ;
+    /* border: solid ; */
     /* height:100vh; */
 }
 
 .service {
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     cursor: pointer;
     font-size: 30px;
@@ -41,6 +41,7 @@ body {
     margin-top: 1%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 
@@ -49,15 +50,19 @@ body {
     width: 90%;
     height: 80%;
     margin-bottom: 9%;
-    box-shadow: 2px 10px 4px 0px #dbe7ed;
+    /* box-shadow: 2px 10px 4px 0px #dbe7ed; */
 }
 
-.image-divs label {
-    padding: 10px;
-    font-size: 20px;
+.cards-images label {
+    /* margin-top: 9%; */
+    padding: 1px;
+    /* font-size: 2vw; */
+    font-weight: 700;
     border-radius: 10px;
-    border: #fafafa;
-    box-shadow: 2px 1px 2px 1px;
+    width:30%;
+    color: #fff;
+    /* border: #fafafa; */
+    /* box-shadow: 2px 1px 2px 1px; */
 }
 
 .nav-btns {
@@ -68,7 +73,7 @@ body {
 
 .back-to-landing button {
     background-color: #dbe7ed;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -88,7 +93,7 @@ body {
 .see-more-btn button {
     /* margin-left: 70%; */
     background-color: #dbe7ed;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -107,9 +112,18 @@ body {
 }
 
 .foot {
-    border: solid blue;
-    height: 30vh;
+    padding-top: 20px;
+    /* border: solid blue; */
+    height: 25vh;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
     background-color: #dbe7ed;
+}
+
+.foot ul {
+    margin-top: 20%;
+    list-style: none;
 }
 
 /* ------------- second page ------------- */
