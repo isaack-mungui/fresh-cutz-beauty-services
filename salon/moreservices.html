@@ -16,13 +16,45 @@
   </head>
 
   <body>
-    <div class="top-nav-main">
-      <img
-        src="assets/images/Fresh_Cutz__1_-removebg-preview.png"
-        height="100"
-        alt=""
-      />
-    </div>
+    <div class="nav-container">
+      <div class="logo">
+          <a href="#">
+              <img src="./assets/images/Fresh_Cutz__1_-removebg-preview.png"  id="logo">
+          </a>
+      </div>
+      <div class="nav-center">
+          <div><a href="#" id="about">About</a></div>
+          <div><a href="#" id="products">Products</a></div>
+          <div class="dropdown">
+              <button class="services">
+                  Services <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="../barber/barber.html">Barber Shop</a>
+                  <a href="">Beauty Salon</a>
+                  <a href="">Massage Parlour</a>
+              </div>
+
+              <a href="#" id="services">
+                  <!-- <label>Services</label> -->
+                  <!-- <select>
+                      <option>Services</option>
+                      <option><a>Barber Shop</a></option>
+                      <option><a>Beauty Salon</a></option>
+                      <option><a>Massage</a></option>
+                  </select> -->
+              </a>
+          </div>
+          <div>
+              <a href="#" id="cart">Cart</a><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+          </div>
+      </div>    
+      <div class="get-started">
+          <button id="get-started-button">
+              <a href="#" id="get-started-text">Get Started</a>
+          </button>
+      </div>
+  </div>
 
     <div class="nav-bar-select-service">
       <!--wrapper-->
