@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .nav-container .dropdown {
     overflow: visible;
 }
@@ -11,6 +15,11 @@
     justify-content: space-between;
     width: 100%;
     overflow: visible;
+    background-image: url("../images/mostafa-meraji-9twmmS4aXlE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 735px;
+    margin-top: 0px;
 }
 
 #logo {
@@ -28,7 +37,7 @@
 #about {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     text-decoration-color: #ED661F;
     padding-right: 50px;
@@ -37,15 +46,16 @@
 #products {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     padding-right: 50px;
 }
 
+
 .services {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     padding-right: 50px;
 }
@@ -83,7 +93,7 @@
 #cart {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     text-decoration-color: #ED661F;
     padding: 10px;
@@ -107,33 +117,40 @@
     padding: 10px;
 }
 
+.nav-container {
+}
+
 
 .landing-image {
-    background-image: url("../images/mostafa-meraji-9twmmS4aXlE-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    margin-top: -100px;
+    /* position:  */
+    /* padding-top: 60px;
+    height: 600px; */
+    /* margin-top: -100px; */
 }
 
 .landing-description-heading {
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 15px;
     padding-left: 10px;
     font-size: 100px;
-    color: #FFF;
+    color: #000;
+
 }
 
 .landing-description-subheading {
-    position: relative;
-    bottom: 20px;
+    position: absolute;
+    top: 200px;
     padding-left: 10px;
-    font-size: 30px;
-    color: #FFF;
+    font-size: 33px;
+    color: #000;
 }
 
 .view-more {
     padding-left: 10px;
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    margin-bottom: 10%;
 }
 
 #view-more-button {
@@ -141,6 +158,7 @@
     height: 30px;
     border-radius: 10px;
     background-color: DBE7ED;
+    /* color: #DBE7ED; */
 }
 
 #view-more-text {
