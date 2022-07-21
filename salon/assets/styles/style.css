@@ -1,83 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Edu NSW ACT Foundation';
 }
 
-.container{
-    border: solid red;
-}
-
-.image-top{
-    margin-top: 8%;
-    width: 100%;
-    background-image: url("../images/woman-model-makeup-brunette.jpg");
+.image-background{
+    background-image: url("../images/model-1658212312696-905.jpg");
+    /* opacity: 0.9; */
     background-size: cover;
     background-repeat: no-repeat;
-    border: solid blue;
-    height: 300px;
+    background-position: center;
+    overflow: visible;
+    /* border: solid ; */
+    /* height:100vh; */
 }
 
-.service{
+.service {
     margin-top: 5%;
-   text-align: center;
+    text-align: center;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 700;
     border-radius: 30px;
+    color: #dbe7ed;
 }
 
-.images-divs{
-    padding: 10px;
+.images-divs {
     margin-top: 5%;
     display: flex;
-    border: solid green;
-    width: 98%;
+    width: 100%;
     text-align: center;
 }
 
-.cards-images{
-    width: 25%;
-    border: solid black;
-    height: 400px;
+.cards-images {
+    width: 100%;
+    border-radius:5px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.cards-images img{
-    width: 95%;
+.cards-images img {
+    border-radius: 5px;
+    width: 90%;
     height: 80%;
     margin-bottom: 9%;
+    /* box-shadow: 2px 10px 4px 0px #dbe7ed; */
 }
 
-.image-divs label{
-    padding: 10px;
-    font-size: 20px;
+.cards-images label {
+    /* margin-top: 9%; */
+    padding: 1px;
+    /* font-size: 2vw; */
+    font-weight: 700;
     border-radius: 10px;
-    border: #fafafa;
-    box-shadow: 2px 1px 2px 1px;
+    width:30%;
+    color: #fff;
+    /* border: #fafafa; */
+    /* box-shadow: 2px 1px 2px 1px; */
 }
 
-.nav-btns{
-    border: solid green;
-    padding: 40px ;
+.nav-btns {
+    padding: 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.back-to-landing button{
+.back-to-landing button {
     background-color: #dbe7ed;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    color: #010000; 
+    color: #010000;
     padding: 20px 30px !important;
     font-family: 'Edu NSW ACT Foundation';
 }
 
-.back-to-landing button:before{
+.back-to-landing button:before {
     content: '⬅';
     color: #000000 !important;
     border-right: 2px solid #000000;
@@ -85,20 +90,20 @@ body{
     margin: 0px 20px 0px 0px;
 }
 
-.see-more-btn button{
+.see-more-btn button {
     /* margin-left: 70%; */
     background-color: #dbe7ed;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    color: #010000; 
+    color: #010000;
     padding: 20px 30px !important;
     font-family: 'Edu NSW ACT Foundation';
     /* border: 2px solid #000000 !important; */
 }
 
-.see-more-btn button:after{
+.see-more-btn button:after {
     content: '➔';
     /* color: #000000 !important; */
     border-left: 2px solid #000000;
@@ -106,59 +111,238 @@ body{
     margin: 0px 0px 0px 20px;
 }
 
-.foot{
-    border: solid blue;
-    height: 30vh;
+.foot {
+    padding-top: 20px;
+    /* border: solid blue; */
+    height: 25vh;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
     background-color: #dbe7ed;
+}
+
+.foot ul {
+    margin-top: 20%;
+    list-style: none;
 }
 
 /* ------------- second page ------------- */
 
-.top-nav-main{
-    border: solid red;
-    padding: 50px 0px;
+.nav-container .dropdown {
+    overflow: visible;
 }
 
-/* .nav-bar-vertical ul {
-    list-style-type: none;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: visible;
+}
+
+#logo {
+    display: flex;
+    width: 120px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+#about {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+    text-decoration-color: #ED661F;
+    padding-right: 50px;
+}
+
+#products {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.services {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .services {
+    border: none;
+    outline: none;
     margin: 0;
-    padding: 0;
-    width: 20%;
-    /* height: 100vh; 
-    background-color: #dddddd;
-    border: solid blue;
+    background-color: inherit;
 }
 
-.nav-bar-vertical li a {
-     display: block; 
-     margin-bottom: 50%; 
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#cart {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    text-decoration-color: #ED661F;
     padding: 10px;
 }
 
-.nav-bar-vertical li a img{
-    border: solid red;
+.get-started {
+    padding-top: 30px;
+    margin: 15px 20px 0 0;
 }
 
-.nav-bar-vertical li label{
-padding: 10px;
-    font-size: 20px;
+#get-started-button {
+    width: 120px;
+    height: 30px;
     border-radius: 10px;
-    border: #fafafa;
-    box-shadow: 2px 1px 2px 1px;
-} */
-
-.main-content{
-    display:flex;
-    width: 100%;
-    border: solid blue;
+    background-color: DBE7ED;
 }
 
-.image-cards{
-    width: 100%;
-    border: solid ;
+#get-started-text {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
 }
 
-.image-cards img{
+.radio_content_radio_1, .radio_content_radio_2, .radio_content_radio_3, .radio_content_radio_4{
+    display: none;
+}
+
+.main-content1 {
+    display: flex;
+    width: 98%;
+    /* border: solid rgb(243, 134, 9); */
+}
+
+#main-content1, #main-content11, #main-content2, #main-content22, #main-content3, #main-content32, #main-content4, #main-content42{
+    margin-bottom: 8%;
+}
+
+label{
+    margin-left: 1%;
+}
+
+.main-content2 {
+    display: flex;
+    width: 98%;
+    /* border: solid rgb(189, 47, 4); */
+    /* visibility: hidden; */
+    /* position: absolute; */
+}
+
+.main-content3 {
+    display: flex;
+    width: 98%;
+    /* border: solid blue; */
+    /* visibility: hidden; */
+}
+
+.main-content4 {
+    display: flex;
+    width: 98%;
+    /* border: solid blue; */
+    /* visibility: hidden; */
+}
+
+.image-cards {
+    width: 80%;
+    /* background: #dbe7ed; */
+    /* border: solid; */
+    /* box-shadow: 2px 1px 1px 0px #dbe7ed; */
+}
+
+.image-cards img {
     width: 90%;
-    border: solid green;
+    border-radius:5px;
+    margin-top: 1%;
+    box-shadow: 2px 10px 4px 0px #dbe7ed;
+}
+
+.image-cards img:hover {
+    opacity: 0.8;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+.button-tabs {
+    display: flex;
+    background: #fff;
+    font-size: 20px;
+}
+
+.services-btns {
+    /* border: solid #000000; */
+    width: 25%;
+    padding-left: 20px !important;
+    padding: px
+}
+
+.select-btns {
+    background-color: #dbe7ed;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width: 80%;
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+.select-btns:hover{
+    cursor: pointer;
+}
+
+.nav-bar-select-service .content {
+    width: 100%;
+    /* height: calc(100% - 70px); */
+    /* background: #dbe7ed; */
+    margin-top: 2%;
+    padding: 10px;
+    /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); */
+}
+
+.book{
+    background-color: #dbe7ed;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    /* margin-top: 5%; */
+    padding-left: 4px;
+    width: 40%;
+    font-family: 'Edu NSW ACT Foundation'; 
+    margin: 5%;
+}
+
+.book:hover{
+    cursor: pointer;
+    box-shadow: 3px 2px 2px;
+    transition: ease-in-out 1.5s;
 }
