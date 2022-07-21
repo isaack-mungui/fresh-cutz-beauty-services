@@ -1,0 +1,271 @@
+main {
+    background-color: #DBE7ED;
+    border: 2px solid #DBE7ED;
+    /* width: 90%; */
+    /* padding-left:100px;
+    padding-right: 100px; */
+    padding-top: 0%;
+}
+
+.dropbtn {
+    padding-left: 30px;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #DBE7ED;
+    border-radius: 2vh;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F1F1F1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black, color white;
+}
+
+.navigation {
+    width: 98%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.navigation .nav_links {
+    /* float: right; */
+    text-align: center;
+}
+
+#link1 {
+    padding-right: 10px;
+}
+
+#link1_active:link,
+#link1_active:visited {
+    background-color: #DBE7ED;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#link1_massage {
+    padding-right: 500px;
+}
+
+#button_book {
+    padding-left: 30px;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #DBE7ED;
+    border-radius: 2vh;
+}
+
+/* heading 1'''''''''''''''''''''''''''''''''''''' */
+.heading1 {
+    background-image: url("/massage/massage_Assets/massage_images/pexels-karolina-grabowska-4041392.jpg");
+    background-size: 100% 100%;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-bottom: 30%;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* height: 100%; */
+}
+
+.h1_content {
+    margin-right: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 0%;
+    padding-left: 0%;
+}
+
+/* .image1{
+    padding-top: 0%;
+    float: right;
+} */
+.heading1 .image1 {
+    /* padding-left: 30%; */
+    padding-top: 0%;
+    float: right;
+}
+
+.offer {
+    padding-top: 5%;
+    padding-left: 40%;
+}
+
+.carding1 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+}
+
+.card1 {
+    padding-right: 40px;
+}
+
+.location {
+    padding-top: 3%;
+    padding-left: 40%;
+}
+
+.locality {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+}
+
+.location1 {
+    padding-left: 15%;
+}
+
+#visit {
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #DBE7ED;
+    border-radius: 2vh;
+}
+
+.socials {
+    padding-left: 40%;
+}
+
+.icons {
+    padding-left: 38%;
+}
+
+.welcome_intro {
+    padding-left: 0px;
+}
+
+.well_info {
+    padding-left: 20px;
+}
+
+#session1 {
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #DBE7ED;
+    border-radius: 2vh;
+}
+
+.header369 {
+    background-image: url("/massage/massage_Assets/massage_images/pexels-karolina-grabowska-4041392.jpg");
+    background-size: 100% 100%;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-bottom: 40%;
+}
+
+#button_book:link,
+#button_book:visited {
+    color: white;
+    background-color: red;
+}
+
+#button_book:hover,
+#button_book:active {
+    background-color: black;
+    color: white;
+}
+
+#session1:link,
+#session1:visited {
+    color: white;
+    background-color: red;
+}
+
+#session1:hover,
+#session:active {
+    background-color: black;
+    color: white;
+}
+
+#visit:link,
+#visit:visited {
+    color: white;
+    background-color: red;
+}
+
+#visit:hover,
+#visit:active {
+    background-color: black;
+    color: white;
+}
+
+.bbg {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header369 .link1 {
+    padding-right: 2%;
+}
+
+#toppie {
+    padding-left: 40%;
+}
+
+#back {
+    padding-left: 30px;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #DBE7ED;
+    border-radius: 2vh;
+}
+
+#back:link,
+#back:visited {
+    color: white;
+    background-color: red;
+}
+
+#back:hover,
+#back:active {
+    background-color: black;
+    color: white;
+}
+
+#relaxing {
+    padding-top: 10%;
+    padding-left: 2%;
+}
+
+@media only screen and (max-width:600px) {
+    .main {
+        background-color: #dbe7ed;
+        display: flex;
+        flex-direction: column;
+    }
+}
