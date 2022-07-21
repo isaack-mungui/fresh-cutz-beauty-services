@@ -1,4 +1,10 @@
 /* ===================Defaults======================== */
+.formmain{
+    display: flex;
+    flex-direction: column;
+}
+
+
 body {
     background-color: rgba(219, 231, 237, 0.4);
 }
