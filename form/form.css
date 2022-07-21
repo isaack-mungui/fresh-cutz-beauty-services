@@ -1,0 +1,162 @@
+/* ===================Defaults======================== */
+body {
+    background-color: rgba(219, 231, 237, 0.4);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+form {
+    margin-top: 1%;
+    border: thin solid black;
+
+    height: 41.7vw;
+    background-color: #dbe7ed;
+    font-size: 1.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/* ============Body================= */
+
+#head {
+    height: 4vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+    margin-bottom: 4%;
+    margin-top: 0.5%;
+    font-size: 1.7vw;
+    background-color: #dbe7ed;
+
+}
+
+#head p {
+    padding-right: 2%;
+}
+
+#form_heading {
+    background-color: #dbe7ed;
+    width: 30%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0vw;
+    border-radius: 2vw;
+    border: thin solid black;
+
+    margin-top: -6%;
+    margin-left: 2%;
+    box-shadow: 0.3vw 0.3vw 0.9vw;
+
+}
+
+#form_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+
+    font-size: 1.7vw;
+
+}
+
+#form_container1 {
+    border: thin solid black;
+    height: 100%;
+    width: 48%;
+
+}
+
+.input1 {
+    width: 30%;
+    height: 10%;
+    margin-left: 5%;
+    font-size: 1.5vw;
+    border: thin solid black;
+    border-radius: 1vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+#date {
+    width: 30%;
+    height: 10%;
+    margin-left: 5%;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+#form_container2 {
+    border: thin solid black;
+    height: 100%;
+    width: 48%;
+}
+
+#time {
+    width: 25%;
+    height: 10%;
+    margin-left: 5%;
+    border-radius: 1vw;
+    border: thin solid black;
+    font-size: 1.5vw;
+    text-align: center;
+
+}
+
+#location {
+    margin-left: 5%;
+    width: 25%;
+    height: 15%;
+    color: black;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+
+#service {
+    margin-left: 5%;
+    width: 25%;
+    height: 15%;
+    color: black;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+
+#submit {
+    width: 25%;
+    height: 15%;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-left: 75%;
+    border: thin solid black;
+    box-shadow: 0.3vw 0.3vw 0.9vw;
+
+}
+
+#reset {
+    width: 25%;
+    height: 15%;
+    border-radius: 1vw;
+    margin-top: 2%;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-left: 75%;
+    border: thin solid black;
+    box-shadow: 0.3vw 0.3vw 0.9vw;
+
+}

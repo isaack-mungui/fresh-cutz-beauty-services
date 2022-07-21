@@ -1,322 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Select Salon Service</title>
-</head>
+  </head>
 
-<body>
-    <div class="top-nav-main"></div>
+  <body>
+    <div class="nav-container">
+      <div class="logo">
+          <a href="#">
+              <img src="./assets/images/Fresh_Cutz__1_-removebg-preview.png"  id="logo">
+          </a>
+      </div>
+      <div class="nav-center">
+          <div><a href="#" id="about">About</a></div>
+          <div><a href="#" id="products">Products</a></div>
+          <div class="dropdown">
+              <button class="services">
+                  Services <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="../barber/barber.html">Barber Shop</a>
+                  <a href="">Beauty Salon</a>
+                  <a href="">Massage Parlour</a>
+              </div>
+
+              <a href="#" id="services">
+                  <!-- <label>Services</label> -->
+                  <!-- <select>
+                      <option>Services</option>
+                      <option><a>Barber Shop</a></option>
+                      <option><a>Beauty Salon</a></option>
+                      <option><a>Massage</a></option>
+                  </select> -->
+              </a>
+          </div>
+          <div>
+              <a href="#" id="cart">Cart</a><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+          </div>
+      </div>    
+      <div class="get-started">
+          <button id="get-started-button">
+              <a href="#" id="get-started-text">Get Started</a>
+          </button>
+      </div>
+  </div>
 
     <div class="nav-bar-select-service">
-        <!--wrapper-->
-        <div class="button-tabs">
-            <!-- <label class="radio_wrap" data-radio="radio_1">
-                <input type="radio" name="service" class="input" checked />
-                <span class="radio_mark"> Facial Clensing </span>
-            </label>
-            <label class="radio_wrap" data-radio="radio_2">
-                <input type="radio" name="service" class="input" />
-                <span class="radio_mark"> Nails and Feet </span>
-            </label>
-            <label class="radio_wrap" data-radio="radio_3">
-                <input type="radio" name="service" class="input" />
-                <span class="radio_mark"> Locks </span>
-            </label>
-            <label class="radio_wrap" data-radio="radio_4">
-                <input type="radio" name="service" class="input" />
-                <span class="radio_mark"> Braiding </span>
-            </label> -->
-            <div class="services-btns">
-                <button class="facial-page" id="facial" onclick="getElement()">Facial Clensing </button>
-            </div>
-            <div class="services-btns">
-                <button class="nails-page" id="nails">Nails and Feet </button>
-            </div>
-            <div class="services-btns">
-                <button class="locks-page" id="locks">Dread-locks </button>
-            </div>
-            <div class="services-btns">
-                <button class="braids-page" id="braids">Braiding </button>
+      <!--wrapper-->
+      <div class="button-tabs">
+        <div class="services-btns">
+          <button class="select-btns" id="facial" onclick="getElement()">
+            Facial Care
+          </button>
+        </div>
+        <div class="services-btns">
+          <button class="select-btns" id="nails" onclick="getElement2()">
+            Nails and Feet
+          </button>
+        </div>
+        <div class="services-btns">
+          <button class="select-btns" id="locks" onclick="getElement3()">
+            Dread-locks
+          </button>
+        </div>
+        <div class="services-btns">
+          <button class="select-btns" id="braids" onclick="getElement4()">
+            Braiding
+          </button>
+        </div>
+      </div>
+
+      <div class="content">
+        <!-- section 1 -->
+        <div class="radio_content_radio_1" id="radio_content_radio_1">
+          <div class="main-content1" id="main-content1">
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>mud rub</p>
+                <button class="book">Book</button>
+              </div>
             </div>
 
+            <div class="image-cards">
+              <img src="assets/images/Facial.jpg" height="" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>mud rub</p>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/Facial-1.jpg" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>mud rub</p>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/Acne-treatment-facial-768x768.jpg" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>Acne Removal</p>
+                <button class="book">Book</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- duplicate  -->
+
+          <div class="main-content1" id="main-content11">
+            <div class="image-cards">
+              <img src="assets/images/eyelash.jpg" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>Eyelash Extensions</p>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/Ear-Piercing.png" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>Ear Piercing</p>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/nose and lip piercing.png" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>Nose and Lips Piercing</p>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/Teeth.png" alt="" />
+              <div>
+                <label for="">ksh 1000</label>
+                <p>Teeth Whitening</p>
+                <button class="book">Book</button>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="content">
-            <!-- section 1 -->
-            <div class="radio_content_radio_1">
-                <div class="main-content1" id="main-content1">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
+        <!-- section 2 -->
 
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- duplicate  -->
-
-                <div class="main-content1">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
+        <div class="radio_content_radio_2" id="radio_content_radio_2">
+          <div class="main-content2" id="main-content2">
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
             </div>
 
-            <!-- section 2 -->
-
-            <div class="radio_content_radio_2">
-                <div class="main-content2" id="main-content2">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!--  -->
-
-                <div class="main-content2">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
             </div>
 
-            <!-- section 3 -->
-
-            <div class="radio_content_radio_3">
-                <div class="main-content3" id="main-content3">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!--  -->
-
-                <div class="main-content3">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
             </div>
 
-            <!-- section 4 -->
-
-            <div class="radio_content_radio_4">
-                <div class="main-content4" id="main-content4">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!--  -->
-
-                <div class="main-content4">
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-
-                    <div class="image-cards">
-                        <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
-                        <div>
-                            <button class="book">Book</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
             </div>
+          </div>
+
+          <!--  -->
+
+          <div class="main-content2">
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- section 3 -->
+
+        <div class="radio_content_radio_3" id="radio_content_radio_3">
+          <div class="main-content3" id="main-content3">
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="main-content3">
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section 4 -->
+
+        <div class="radio_content_radio_4" id="radio_content_radio_4">
+          <div class="main-content4" id="main-content4">
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="main-content4">
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+
+            <div class="image-cards">
+              <img src="assets/images/face-clensing-nav2.jpeg" alt="" />
+              <div>
+                <button class="book">Book</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
