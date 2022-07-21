@@ -18,7 +18,7 @@ function getElement(){
 }
 
 var nail = document.getElementById("radio_content_radio_2");
-function getElements(){
+function getElement2(){
     if(nail.style.display === "none"){
         nail.style.display = "block"
     }
@@ -28,7 +28,7 @@ function getElements(){
 }
 
 var locks = document.getElementById("radio_content_radio_3");
-function getElements(){
+function getElement3(){
     if(locks.style.display === "none"){
         locks.style.display = "block"
     }
@@ -38,7 +38,7 @@ function getElements(){
 }
 
 var braid = document.getElementById("radio_content_radio_4");
-function getElements(){
+function getElement4(){
     if(braid.style.display === "none"){
         braid.style.display = "block"
     }
