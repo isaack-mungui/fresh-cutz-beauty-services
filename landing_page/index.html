@@ -4,20 +4,62 @@
         <title>Fresh Cutz & Beauty Services</title>
         <link rel="icon" type="image/x-icon" href="./assets/images/shampoo.png">
 
+        <!-- Add Font Awesome icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <link href="./assets/css/index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="nav-container">
-            <div>
+            <div class="logo">
                 <a href="#">
                     <img src="./assets/images/Fresh_Cutz_logo.png" id="logo">
                 </a>
             </div>
             <div class="nav-center">
-                <div><a href="">Products</a></div>
-                <div><a href="">About</a></div>
-                <div><a href="#">Services</a></div>
-                <div><a>Cart</a></div>
+                <div><a href="#" id="about">About</a></div>
+                <div><a href="#" id="products">Products</a></div>
+                <div class="dropdown">
+                    <button class="services">
+                        Services <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../barber/barber.html" target="_blank">Barber Shop</a>
+                        <a href="../salon/index.html" target="_blank">Beauty Salon</a>
+                        <a href="../massage/massage.html" target="_blank">Massage Parlour</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" id="cart">Cart</a><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                </div>
+            </div>    
+            <div class="get-started">
+                <button id="get-started-button">
+                    <a href="../form/form.html" target="_blank" id="get-started-text">Get Started</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="landing-image">
+            <!-- <img src="./assets/images/mostafa-meraji-9twmmS4aXlE-unsplash.jpg" id="background-image"> -->
+            <p class="landing-description-heading">
+                Lorem ipsum
+            </p>
+            <p class="landing-description-subheading">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> 
+                sed do eiusmod tempor incididunt ut labore et dolore<br/>
+                magna aliqua. Ut enim ad minim veniam, quis nostrud<br/> 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo<br/> 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate<br/> 
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br/> 
+                sint occaecat cupidatat non proident, sunt in culpa qui officia<br/> 
+                deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="view-more">
+                <button id="view-more-button">
+                    <a href="#" id="view-more-text">View More</a>
+                </button>
             </div>
         </div>
         
