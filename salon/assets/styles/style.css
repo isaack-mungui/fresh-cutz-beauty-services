@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+.container{
+    border: solid red;
+}
+
+.image-top{
+    margin-top: 8%;
+    width: 100%;
+    background-image: url("../images/woman-model-makeup-brunette.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid blue;
+    height: 300px;
+}
+
+.service{
+    margin-top: 5%;
+   text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.images-divs{
+    padding: 10px;
+    margin-top: 5%;
+    display: flex;
+    border: solid green;
+    width: 98%;
+    text-align: center;
+}
+
+.cards-images{
+    width: 25%;
+    border: solid black;
+    height: 400px;
+}
+
+.cards-images img{
+    width: 95%;
+    height: 80%;
+    margin-bottom: 9%;
+}
+
+.image-divs label{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #fafafa;
+    box-shadow: 2px 1px 2px 1px;
+}
+
+.nav-btns{
+    border: solid green;
+    padding: 40px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-to-landing button{
+    background-color: #dbe7ed;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #010000; 
+    padding: 20px 30px !important;
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+.back-to-landing button:before{
+    content: '⬅';
+    color: #000000 !important;
+    border-right: 2px solid #000000;
+    padding-right: 30px;
+    margin: 0px 20px 0px 0px;
+}
+
+.see-more-btn button{
+    /* margin-left: 70%; */
+    background-color: #dbe7ed;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #010000; 
+    padding: 20px 30px !important;
+    font-family: 'Edu NSW ACT Foundation';
+    /* border: 2px solid #000000 !important; */
+}
+
+.see-more-btn button:after{
+    content: '➔';
+    /* color: #000000 !important; */
+    border-left: 2px solid #000000;
+    padding-left: 30px;
+    margin: 0px 0px 0px 20px;
+}
+
+.foot{
+    border: solid blue;
+    height: 30vh;
+    background-color: #dbe7ed;
+}
+
+/* ------------- second page ------------- */
+
+.top-nav-main{
+    border: solid red;
+    padding: 50px 0px;
+}
+
+/* .nav-bar-vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    /* height: 100vh; 
+    background-color: #dddddd;
+    border: solid blue;
+}
+
+.nav-bar-vertical li a {
+     display: block; 
+     margin-bottom: 50%; 
+    padding: 10px;
+}
+
+.nav-bar-vertical li a img{
+    border: solid red;
+}
+
+.nav-bar-vertical li label{
+padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #fafafa;
+    box-shadow: 2px 1px 2px 1px;
+} */
+
+.main-content{
+    display:flex;
+    width: 100%;
+    border: solid blue;
+}
+
+.image-cards{
+    width: 100%;
+    border: solid ;
+}
+
+.image-cards img{
+    width: 90%;
+    border: solid green;
+}
