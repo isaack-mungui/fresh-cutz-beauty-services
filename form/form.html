@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="form.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Session</title>
+  </head>
+  <body>
+    <div id="head">
+      <p>
+        <em>from the creators of : </em> The <strong>HOOD</strong> The
+        <strong>BALD</strong> and The <strong>HUNGRY</strong>
+      </p>
+    </div>
+    <form action="">
+      <div id="form_heading">
+        <h2>Book a session</h2>
+      </div>
+      <div id="form_container">
+        <div id="form_container1">
+          <label for="username">Please enter your username:</label>
+          <br />
+          <br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+            placeholder="Username"
+            class="input1"
+          />
+          <hr />
+          <!-- ----------------------- -->
+          <br />
+          <label for="email">Please enter your email address:</label>
+          <br />
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@example.com"
+            required
+            class="input1"
+          />
+
+          <hr />
+          <br />
+          <label for="date">Select a date for appointment:</label>
+          <br />
+          <br />
+          <input type="date" id="date" name="date" required />
+          <br />
+
+          <input type="reset" value="Reset" id="reset" />
+        </div>
+        <div id="form_container2">
+          <label for="time">Select time for the appointment:</label>
+          <br />
+          <br />
+          <input type="time" id="time" min="08:00" max="17:00" required />
+          <small>We operated between 8 AM and 5 PM</small>
+          <hr />
+
+          <label for="location">Select the location for the session:</label>
+          <br />
+          <br />
+          <select name="location" id="location" required>
+            <option value="Zimmerman">Zimmerman</option>
+            <option value="Kasarani">Kasarani</option>
+            <option value="Roysambu">value</option>
+          </select>
+          <hr />
+          <label for="service">Select type of service:</label>
+          <br />
+          <br />
+          <select name="service" id="service">
+            <option value="Massage">Massage</option>
+            <option value="Salon">Salon</option>
+            <option value="Barber">Barber</option>
+          </select>
+          <br />
+          <br />
+          <input
+            type="submit"
+            value="Book Session"
+            id="submit"
+            onclick="sendMail()"
+          />
+        </div>
+      </div>
+    </form>
+    <script src="./form.js"></script>
+  </body>
+</html>
+
+<!--  
+    
+      
+      <br />
+      <button id="booking">Book session</button> -->
