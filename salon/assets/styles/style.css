@@ -102,7 +102,7 @@ body {
 
 .foot {
     padding-top: 20px;
-    height: 25vh;
+    /* height: 30%; */
     display: flex;
     font-size: 25px;
     justify-content: space-around;
@@ -137,15 +137,6 @@ body {
     justify-content: space-between;
     padding-top: 40px;
     margin-top: 10px;
-}
-
-#about {
-    font-family: 'Inter', sans-serif;
-    font-weight: bolder;
-    color: #000;
-    text-decoration: none;
-    text-decoration-color: #ED661F;
-    padding-right: 50px;
 }
 
 #products {
@@ -211,8 +202,9 @@ body {
 #get-started-button {
     width: 120px;
     height: 30px;
+    border: none;
     border-radius: 10px;
-    background-color: DBE7ED;
+    background-color: #DBE7ED;
 }
 
 #get-started-text {
@@ -234,8 +226,9 @@ body {
     margin-bottom: 8%;
 }
 
-label{
-    margin-left: 1%;
+.fun-tags{
+    font-size: 20px;
+    padding: 10px;
 }
 
 .main-content2 {
@@ -255,6 +248,8 @@ label{
 
 .image-cards {
     width: 80%;
+    font-size: 20px;
+    text-align: center;
 }
 
 .image-cards img {
