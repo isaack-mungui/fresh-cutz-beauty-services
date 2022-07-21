@@ -6,6 +6,43 @@
     padding-right: 100px; */
     padding-top: 0%;
 }
+
+
+.dropbtn {
+    padding-left: 30px;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid #dbe7ed;
+    border-radius: 2vh;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black , color white;}
+
+
 .navigation{
     width: 98%;
     padding-top: 20px;
