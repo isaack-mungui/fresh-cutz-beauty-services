@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .section {
@@ -7,7 +8,7 @@
     height: 40vw;
     margin-top: 0.5%;
     margin-bottom: 2%;
-    background-color: #dbe7ed;
+    background-color: rgba(219, 231, 237, 0.1);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -41,12 +42,7 @@
     font-weight: 200;
 }
 
-/* =======================Main====================== */
-/* main {
-    margin-left: 3%;
-    margin-right: 3%;
-}
- */
+
 /* =============Scetion 1============= */
 #sect1 {
     width: 100%;
@@ -177,12 +173,12 @@
     border: none;
 }
 
-/* ===================section 4=============== */
-/* header */
+/* ===================sections=============== */
+/* headers */
 .sect_head {
     width: 100%;
     height: 4vw;
-    background-color: #dbe7ed;
+    background-color: rgba(219, 231, 237, 0.1);
     margin-top: 3%;
     display: flex;
     flex-direction: row;
@@ -193,7 +189,7 @@
 .sect_head div {
     height: 100%;
     width: 25%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 2vw;
     display: flex;
     flex-direction: row;
@@ -203,36 +199,37 @@
     font-weight: 800;
 }
 
-/* section 4 */
+/* main section */
 .cards {
     height: 90%;
     width: 23%;
     background-color: #d9d9d9;
-    border-radius: 2vw;
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .cards div {
-    border-radius: 2vw;
+    border-radius: 7px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 .card_name {
-    height: 15%;
+    height: 10%;
     font-size: 1.7vw;
     font-weight: 600;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
 .card_img {
-    height: 60%;
+    height: 80%;
 
 }
 
@@ -240,20 +237,20 @@
 .card_img img {
     width: 100%;
     height: 100%;
-    border-radius: 2vw;
+    border-radius: 7px;
 }
 
 .card_info {
-    height: 15%;
+    height: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .card_info button {
     height: 100%;
-    width: 48%;
+    width: 40%;
     border: thin black solid;
     border-radius: 1vw;
     background-color: #dbe7ed;
@@ -261,7 +258,7 @@
     font-weight: 600;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
