@@ -1,4 +1,4 @@
-.main{
+main{
     background-color: #dbe7ed;
     border: 2px solid #dbe7ed;
     /* width: 90%; */
@@ -221,7 +221,7 @@ a{
     padding-left: 2%;
 }
 @media only screen and (max-width:600px) {
-    .main{
+    main{
         background-color:#dbe7ed;
         display: flex;
         flex-direction: column;

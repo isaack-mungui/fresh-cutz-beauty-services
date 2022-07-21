@@ -7,60 +7,57 @@ body {
     font-family: 'Edu NSW ACT Foundation';
 }
 
-.container {
-    border: solid red;
-}
-
-.image-top {
-    margin-top: 8%;
-    width: 100%;
-    background-image: url("../images/woman-model-makeup-brunette.jpg");
+.image-background{
+    background-image: url("../images/model-1658212312696-905.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border: solid blue;
-    height: 300px;
+    background-position: center;
+    overflow: visible;
 }
 
 .service {
     margin-top: 5%;
     text-align: center;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 700;
     border-radius: 30px;
+    color: #dbe7ed;
 }
 
 .images-divs {
-    padding: 10px;
     margin-top: 5%;
     display: flex;
-    border: solid green;
-    width: 98%;
+    width: 100%;
     text-align: center;
 }
 
 .cards-images {
-    width: 25%;
-    border: solid black;
-    height: 400px;
+    width: 100%;
+    border-radius:5px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .cards-images img {
-    width: 95%;
+    border-radius: 5px;
+    width: 90%;
     height: 80%;
     margin-bottom: 9%;
 }
 
-.image-divs label {
-    padding: 10px;
-    font-size: 20px;
+.cards-images label {
+    padding: 1px;
+    font-weight: 700;
     border-radius: 10px;
-    border: #fafafa;
-    box-shadow: 2px 1px 2px 1px;
+    width:30%;
+    color: #fff;
 }
 
 .nav-btns {
-    border: solid green;
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -68,7 +65,7 @@ body {
 
 .back-to-landing button {
     background-color: #dbe7ed;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -86,30 +83,35 @@ body {
 }
 
 .see-more-btn button {
-    /* margin-left: 70%; */
     background-color: #dbe7ed;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     color: #010000;
     padding: 20px 30px !important;
     font-family: 'Edu NSW ACT Foundation';
-    /* border: 2px solid #000000 !important; */
 }
 
 .see-more-btn button:after {
     content: '➔';
-    /* color: #000000 !important; */
     border-left: 2px solid #000000;
     padding-left: 30px;
     margin: 0px 0px 0px 20px;
 }
 
 .foot {
-    border: solid blue;
-    height: 30vh;
+    padding-top: 20px;
+    height: 25vh;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
     background-color: #dbe7ed;
+}
+
+.foot ul {
+    margin-top: 20%;
+    list-style: none;
 }
 
 /* ------------- second page ------------- */
@@ -226,55 +228,33 @@ body {
 .main-content1 {
     display: flex;
     width: 98%;
-    /* border: solid rgb(243, 134, 9); */
 }
 
-#main-content1{
+#main-content1, #main-content11, #main-content2, #main-content22, #main-content3, #main-content32, #main-content4, #main-content42{
     margin-bottom: 8%;
 }
+
 label{
     margin-left: 1%;
 }
 
 .main-content2 {
     display: flex;
-    width: 100%;
-    border: solid rgb(189, 47, 4);
-    /* visibility: hidden; */
-    /* position: absolute; */
-}
-
-#main-content2{
-    margin-bottom: 8%;
+    width: 98%;
 }
 
 .main-content3 {
     display: flex;
-    width: 100%;
-    border: solid blue;
-    /* visibility: hidden; */
-}
-
-#main-content3{
-    margin-bottom: 8%;
+    width: 98%;
 }
 
 .main-content4 {
     display: flex;
-    width: 100%;
-    border: solid blue;
-    /* visibility: hidden; */
-}
-
-#main-content4{
-    margin-bottom: 8%;
+    width: 98%;
 }
 
 .image-cards {
     width: 80%;
-    /* background: #dbe7ed; */
-    /* border: solid; */
-    /* box-shadow: 2px 1px 1px 0px #dbe7ed; */
 }
 
 .image-cards img {
@@ -297,7 +277,6 @@ label{
 }
 
 .services-btns {
-    /* border: solid #000000; */
     width: 25%;
     padding-left: 20px !important;
     padding: px
@@ -319,11 +298,8 @@ label{
 
 .nav-bar-select-service .content {
     width: 100%;
-    /* height: calc(100% - 70px); */
-    /* background: #dbe7ed; */
     margin-top: 2%;
     padding: 10px;
-    /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); */
 }
 
 .book{
@@ -331,7 +307,6 @@ label{
     font-size: 20px;
     border: none;
     border-radius: 20px;
-    /* margin-top: 5%; */
     padding-left: 4px;
     width: 40%;
     font-family: 'Edu NSW ACT Foundation'; 
