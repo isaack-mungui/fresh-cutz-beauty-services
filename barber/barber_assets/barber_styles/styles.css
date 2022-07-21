@@ -285,3 +285,21 @@
 #section2 .cards {
     width: 27%;
 }
+
+/* button effects */
+#sect1_button1,
+#sect1_button2 {
+    background-color: transparent;
+}
+
+#but0_span1:hover,
+#but1_span1:hover {
+    background-color: black;
+    color: #dbe7ed;
+}
+
+#but0_span2:hover,
+#but1_span2:hover {
+    background-color: #dbe7ed;
+    color: black;
+}
