@@ -76,14 +76,15 @@
 }
 
 .dropdown-content a {
+    font-family: 'Inter', sans-serif;
     float: none;
-    color: black;
+    color: #FFF;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #FFF;
 }
 
 .dropdown:hover .dropdown-content {
