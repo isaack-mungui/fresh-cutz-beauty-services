@@ -37,7 +37,7 @@
 #about {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
-    color: #FFF;
+    color: #DDD;
     text-decoration: none;
     text-decoration-color: #ED661F;
     padding-right: 50px;
@@ -46,7 +46,7 @@
 #products {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
-    color: #FFF;
+    color: #DDD;
     text-decoration: none;
     padding-right: 50px;
 }
@@ -55,7 +55,7 @@
 .services {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
-    color: #FFF;
+    color: #DDD;
     text-decoration: none;
     padding-right: 50px;
 }
@@ -77,7 +77,7 @@
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: #FFF;
     text-decoration: none;
     display: block;
 }
@@ -133,7 +133,7 @@
     top: 15px;
     padding-left: 10px;
     font-size: 100px;
-    color: #FFF;
+    color: #DDD;
 
 }
 
@@ -142,7 +142,7 @@
     top: 200px;
     padding-left: 10px;
     font-size: 33px;
-    color: #FFF;
+    color: #DDD;
 }
 
 .view-more {
