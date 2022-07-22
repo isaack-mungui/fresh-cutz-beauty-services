@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book a Session</title>
   </head>
+
   <body>
     <div class="formmain">
       <div id="head">
@@ -46,7 +47,7 @@
               required
               class="input1"
             />
-  
+
             <hr />
             <br />
             <label for="date">Select a date for appointment:</label>
@@ -54,7 +55,7 @@
             <br />
             <input type="date" id="date" name="date" required />
             <br />
-  
+
             <input type="reset" value="Reset" id="reset" />
           </div>
           <div id="form_container2">
@@ -64,14 +65,14 @@
             <input type="time" id="time" min="08:00" max="17:00" required />
             <small>We operated between 8 AM and 5 PM</small>
             <hr />
-  
+
             <label for="location">Select the location for the session:</label>
             <br />
             <br />
             <select name="location" id="location" required>
               <option value="Zimmerman">Zimmerman</option>
               <option value="Kasarani">Kasarani</option>
-              <option value="Roysambu">value</option>
+              <option value="Roysambu">Ngong</option>
             </select>
             <hr />
             <label for="service">Select type of service:</label>
@@ -92,8 +93,9 @@
             />
           </div>
         </div>
+      </form>
     </div>
-    </form>
+
     <script src="./form.js"></script>
   </body>
 </html>
