@@ -303,3 +303,8 @@
     background-color: #dbe7ed;
     color: black;
 }
+
+.card_order:hover {
+    width: 38%;
+    height: 90%;
+}
